@@ -58,9 +58,9 @@ export const addProductFormElements = [
     name: "category",
     componentType: "select",
     options: [
-      { id: "men", label: "Men" },
-      { id: "women", label: "Women" },
-      { id: "kids", label: "Kids" },
+      { id: "casual_wear", label: "Casual Wear" },
+      { id: "western_wear", label: "Western Wear" },
+      { id: "traditional_wear", label: "Traditional Wear" },
       { id: "accessories", label: "Accessories" },
       { id: "footwear", label: "Footwear" },
     ],
@@ -113,18 +113,18 @@ export const shoppingViewHeaderMenuItems = [
     path: "/shop/listing",
   },
   {
-    id: "men",
-    label: "Men",
+    id: "casual_wear",
+    label: "Casual Wear",
     path: "/shop/listing",
   },
   {
-    id: "women",
-    label: "Women",
+    id: "western_wear",
+    label: "Western Wear",
     path: "/shop/listing",
   },
   {
-    id: "kids",
-    label: "Kids",
+    id: "traditional_wear",
+    label: "Traditional Wear",
     path: "/shop/listing",
   },
   {
@@ -145,9 +145,9 @@ export const shoppingViewHeaderMenuItems = [
 ];
 
 export const categoryOptionsMap = {
-  men: "Men",
-  women: "Women",
-  kids: "Kids",
+  casual_wear: "Casual Wear",
+  western_wear: "Western Wear",
+  traditional_wear: "Traditional Wear",
   accessories: "Accessories",
   footwear: "Footwear",
 };
@@ -163,9 +163,9 @@ export const brandOptionsMap = {
 
 export const filterOptions = {
   category: [
-    { id: "men", label: "Men" },
-    { id: "women", label: "Women" },
-    { id: "kids", label: "Kids" },
+    { id: "casual_wear", label: "Casual Wear" },
+    { id: "western_wear", label: "Western Wear" },
+    { id: "traditional_wear", label: "Traditional Wear" },
     { id: "accessories", label: "Accessories" },
     { id: "footwear", label: "Footwear" },
   ],
